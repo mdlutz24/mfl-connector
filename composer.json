@@ -1,0 +1,31 @@
+{
+    "name": "mdlutz24/mflconnector",
+    "description": "A php connector for MyFantasyLeague.com api",
+    "type": "library",
+    "require": {
+        "php": ">=7.1",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^6.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.4 || ^7.0",
+        "psr/log": "^1.1"
+    },
+    "license": "LGPS 3.0",
+    "authors": [
+        {
+            "name": "Michael Lutz",
+            "email": "mlutz531@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "mdlutz24\\mflconnector\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "mdlutz24\\mflconnector\\tests\\": "tests/"
+        }
+    },
+}
